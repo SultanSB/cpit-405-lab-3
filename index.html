@@ -4,14 +4,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB - 3</title>
+    <title>LAB-3</title>
     <link rel="stylesheet" href="./style.css">
+    <style>
+        p>span {
+            color: red;
+        }
+
+        #header span {
+            color: pink;
+        }
+
+        span {
+            color: green;
+        }
+
+        #header *:last-child {
+            color: orange;
+        }
+
+        #header span:first-child:hover {
+            color: blue;
+        }
+    </style>
 </head>
 
 <body>
     <div class="image-preview">
         <img src='https://cpit405.gitlab.io/images/KAU_logo.png'>
     </div>
+
+    
+    <pre><code>
+        &lt;div id="header"&gt;
+            &lt;span class="myclass1"&gt;Every&lt;/span&gt;
+            &lt;span class="myclass2"&gt;one can&lt;/span&gt;
+            &lt;span class="myclass3"&gt;success.&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;p&gt; One machine can do the work of fifty ordinary men.
+            &lt;span class="myclass4"&gt;No machine can do the work of one extraordinary man.&lt;/span&gt;
+        &lt;/p&gt;
+        
+        <p>For the following code below are the result in the table</p>
+</code></pre>
+
+    <table>
+        <tr>
+            <th style="background-color: #ffffff;"></th>
+            <th>Color</th>
+            <th>Color when mouse over</th>
+        </tr>
+        <tr>
+            <th>span.myclass1</th>
+            <td>pink</td>
+            <td>blue</td>
+        </tr>
+        <tr>
+            <th>span.myclass2</th>
+            <td>pink</td>
+        </tr>
+        <tr>
+            <th>span.myclass3</th>
+            <td>orange</td>
+        </tr>
+        <tr></tr>
+        <th>span.myclass4</th>
+        <td>red</td>
+        </tr>
+    </table>
 </body>
 
 </html>

@@ -4,14 +4,15 @@ body {
     min-height: 100vh;
 }
 
-.image-preview{
+.image-preview {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    ;
     margin: 60px;
-    
+
 }
 
-.image-preview img{
+.image-preview img {
     max-width: 100%;
     border-radius: 8px;
     border-width: 30px;
@@ -21,4 +22,39 @@ body {
     border-bottom-color: lightgreen;
     border-left-color: #ffefd5;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+
+pre {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+code {
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 90%;
+    margin: 8px;
+
+}
+p{
+    margin: 8px;
 }
